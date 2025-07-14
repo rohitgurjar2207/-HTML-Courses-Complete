@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <form>
+        text: <input type="text" placeholder="Enter Text"><br>
+        password:<input type ="password"><br>
+
+    </form>
+    <form action="/submit.php"method="post">
+        <input type="text" name="name">
+        <input type="submit" value="Submit">
+    </form>
+    <form action="/submit.php"method="post">
+        <input type="text" name="username" value="rohit">
+        
+    </form>
+    <form action="/submit.php"method="post">
+        <label for="username"> username:</label>
+        <input type="text" id="username" name="username">
+    </form>
+    <form > 
+        text: <input type="text" placeholder="Enter Text"><br>
+        password: <input type="password"><br>
+        Date: <input type="data"><br>
+        file <input type="file"><br>
+    </form>
+    <form>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male"<br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="feMale"<br>
+    </form>
+    <form>
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" name="fruit" value="Apple"<br>
+        <label for="banana">Banana</label>
+        <input type="checkbox" id="banana" name="fruit" value="banana"
+    </form>
+    <BR>
+    <form>
+        <label for="Fruits">choose a fruit</label>
+        <select id="Fruits" name="Fruits">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Cherry">Cherry</option>
+        
+    </form>
+    <form>
+        <textarea name ="story" id="story" cols="20" rows="4">
+            Text here
+        </textarea>
+    </form>
+</body>
+</html>
